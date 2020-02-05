@@ -22,7 +22,7 @@ export class ApiService {
    * @param endpoint
    */
   public getURL(endpoint: string): string {
-    let base_url = 'http://localhost:8081';
+    let base_url = 'http://localhost:8080';
     if (base_url[base_url.length - 1] !== '/') {
       base_url = base_url + '/';
     }

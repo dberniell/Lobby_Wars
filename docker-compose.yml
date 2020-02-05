@@ -15,13 +15,10 @@ services:
 
   ionic:
     build:
-      context: ./etc/dev/ionic/
+      context: ./client/
     ports:
       - "8100:8100"
       - "35729:35729"
-    volumes:
-      - ./client:/myApp
-    command: ["ionic", "serve"]
 
   php:
     build:
