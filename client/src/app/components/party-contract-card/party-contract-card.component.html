@@ -1,0 +1,16 @@
+<ion-card class="ion-float-left">
+  <ion-card-header>
+    <ion-card-title>Party {{ numParty }}</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-label>Roles</ion-label>
+    <ion-buttons>
+      <ion-button class="ion-float-left" (click)="addRole('K')">Add K</ion-button>
+      <ion-button class="ion-float-left" (click)="addRole('N')">Add N</ion-button>
+      <ion-button class="ion-float-left" (click)="addRole('V')">Add V</ion-button>
+    </ion-buttons>
+    <ion-label>Contracts</ion-label>
+    <ion-input disabled="true" [value]="partyContract"></ion-input>
+    <ion-label>Party {{ numParty}} has {{ partyPoints }} points.</ion-label>
+  </ion-card-content>
+</ion-card>
