@@ -91,7 +91,7 @@ Filesystem mapping:
 
 ## Start app
 
-1. Access http://localhost:8080
+1. Access http://localhost:8100
 2. Set contracts
 3. Start trial!
 4. Repeat as many times adding more roles signatures
